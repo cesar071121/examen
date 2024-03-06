@@ -1,7 +1,14 @@
+@font-face{
+    font-family: roboto;
+    src: url(/fonts/Roboto-light.ttf);
+}
 *{
     margin: 0;
     padding: 0;
-    boxing:border-box
+    transition: 2s all ease-in-out;
+}
+ul,ol{
+    font-family: roboto;
 }
 img{
     display: block;
@@ -15,18 +22,28 @@ img:hover{
     transition: 2s all ease;
     transform: scale(1.2);
 }
-b{
-    display: block;
-    margin:auto;
-}
-b :hover{
-
+#y1{
+    
+    text-shadow: 0 0 5px yellow;
     transition: 1s all ease;
     color: black;
-    text-shadow: -2 -2 5px yellow;
+
 }
-#ne1 :hover{
-    transition: 1s all ease-in-out;
-color: blue;
-text-shadow: -2 -2 5px yellow;
+#b1{
+font-style: italic;
+}
+#b2{
+    font-style: italic;
+}
+#b3{
+    font-style: italic;
+}
+#box1{
+
+ }
+ #btn{
+    
+ }
+ #btn :hover{
+
 }
