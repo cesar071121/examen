@@ -42,8 +42,19 @@ font-style: italic;
 
  }
  #btn{
-    
+    height: 100px;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #cd20c7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
  }
- #btn :hover{
-
+ 
+    #btn:hover {
+        background-color: #2980b9;
+        transition: 2s all ease-out;
+}
+#tb{
+    color: white;
+    background: black;
 }
